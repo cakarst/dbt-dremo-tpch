@@ -1,0 +1,5 @@
+# version: 2
+# data_tests:
+#   - name: assert_max_discount
+#     description: >
+#       No item should have a discount >50%. This would be proposterous!

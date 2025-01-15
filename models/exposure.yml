@@ -1,0 +1,40 @@
+version: 2
+
+exposures:
+
+  - name: tpch
+    label: tpch_snowflake
+    type: analysis
+    maturity: high
+    url: https://bi.tool/dashboards/1
+    description: >
+      This includes the entirity of the TPCH mart. 
+
+    depends_on:
+      - ref('mart_tpch_q1')
+      - ref('mart_tpch_q2')
+      - ref('mart_tpch_q3')
+      - ref('mart_tpch_q4')
+      - ref('mart_tpch_q5')
+      - ref('mart_tpch_q6')
+      - ref('mart_tpch_q7')
+      - ref('mart_tpch_q8')
+      - ref('mart_tpch_q9')
+      - ref('mart_tpch_q10')
+      - ref('mart_tpch_q11')
+      - ref('mart_tpch_q12')
+      - ref('mart_tpch_q13')
+      - ref('mart_tpch_q14')
+      - ref('mart_tpch_q15')
+      - ref('mart_tpch_q16')
+      - ref('mart_tpch_q17')
+      - ref('mart_tpch_q18')
+      - ref('mart_tpch_q19')
+      - ref('mart_tpch_q20')
+      - ref('mart_tpch_q21')
+      - ref('mart_tpch_q22')
+
+
+    owner:
+      name: CaseyKarst
+      email: data@straight_to_the_trash.com
